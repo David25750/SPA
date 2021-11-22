@@ -1,0 +1,48 @@
+html {
+    overflow-x: hidden;
+}
+body{
+    background-color: #dddddd;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+header {
+
+}
+footer {
+
+}
+main {
+    width: 80vw;
+}
+p {
+    background-color: #EEEEEE;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+ul>li {
+
+  display: inline;
+  float: right;
+
+}
+
+
+ul>li>a {
+  text-decoration: none;
+  display: block;
+  color: #161615;
+  padding: 3em;
+  background-color: #dddddd;
+}
+#lien-inscription {
+  background-color: #297319;
+  color: #EEEEEE;
+}
+
