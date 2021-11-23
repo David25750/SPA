@@ -1,95 +1,78 @@
 <template>
   <div id="contact">
-    <div class="container">
-      <div class="col-md-7 col-lg-8">
-        <h4 class="mb-3">Billing address</h4>
+    <div class="container-fluid">
+      <div class="row row-cols-2">
+        <div class="col">
+          <h2>infos pratique</h2>
+        </div>
+        <div class="col">
+          <h2>nous contacter</h2>
+        </div>
+      </div>
+      <div class="row row-cols-2">
+        <div class="col">
+          <svg></svg>
+          <p>Lundi 18 avril 2022, 10h00</p>
+        </div>
+        <div class="col">
+          <svg></svg>
+          <p>03 84 56 12 05</p>
+        </div>
+      </div>
+      <div class="row row-cols-2">
+        <div class="col">
+          <svg></svg>
+          <p>Pont Rolland Vetter , 90400 Audincourt</p>
+        </div>
+        <div class="col">
+          <svg></svg>
+          <p>contact@rondedubosmont.fr</p>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid bg-black-50">
+      <div class="justify-content-center align-items-center"><!--col-md-7 col-lg-8-->
+        <h6 class="mb-3">Pour toutes suggestions ou questions supplémentaires, veuillez nous contacter via le formulaire disponible ci-dessous</h6>
         <form class="needs-validation" novalidate="">
           <div class="row g-3">
+
             <div class="col-sm-6">
-              <label for="firstName" class="form-label">First name</label>
-              <input type="text" class="form-control" id="firstName" placeholder="" value="" required="">
+              <label for="lastName" class="form-label">Nom</label>
+              <input type="text" class="form-control" id="firstName" placeholder="Nom" value="" required="">
               <div class="invalid-feedback">
-                Valid first name is required.
+                Le no  est obligatoire
               </div>
             </div>
 
             <div class="col-sm-6">
-              <label for="lastName" class="form-label">Last name</label>
-              <input type="text" class="form-control" id="lastName" placeholder="" value="" required="">
+              <label for="firstName" class="form-label">Prénom</label>
+              <input type="text" class="form-control" id="lastName" placeholder="Prénom" value="" required="">
               <div class="invalid-feedback">
-                Valid last name is required.
+                Le nom est obligatoire
               </div>
             </div>
 
             <div class="col-12">
-              <label for="username" class="form-label">Username</label>
+              <label for="email" class="form-label">E - mail</label>
               <div class="input-group has-validation">
                 <span class="input-group-text">@</span>
-                <input type="text" class="form-control" id="username" placeholder="Username" required="">
+                <input type="email" class="form-control" id="username" placeholder="you@example.com" required="">
                 <div class="invalid-feedback">
-                  Your username is required.
+                  Votre e-mail est obligatoire
                 </div>
               </div>
             </div>
 
             <div class="col-12">
-              <label for="email" class="form-label">Email <span class="text-muted">(Optional)</span></label>
-              <input type="email" class="form-control" id="email" placeholder="you@example.com">
+              <label class="form-label">Objet<span class="text-muted">(Optional)</span></label>
+              <input type="email" class="form-control" id="email" placeholder="Objet">
               <div class="invalid-feedback">
-                Please enter a valid email address for shipping updates.
-              </div>
-            </div>
-
-            <div class="col-12">
-              <label for="address" class="form-label">Address</label>
-              <input type="text" class="form-control" id="address" placeholder="1234 Main St" required="">
-              <div class="invalid-feedback">
-                Please enter your shipping address.
-              </div>
-            </div>
-
-            <div class="col-12">
-              <label for="address2" class="form-label">Address 2 <span class="text-muted">(Optional)</span></label>
-              <input type="text" class="form-control" id="address2" placeholder="Apartment or suite">
-            </div>
-
-            <div class="col-md-5">
-              <label for="country" class="form-label">Country</label>
-              <select class="form-select" id="country" required="">
-                <option value="">Choose...</option>
-                <option>United States</option>
-              </select>
-              <div class="invalid-feedback">
-                Please select a valid country.
-              </div>
-            </div>
-
-            <div class="col-md-4">
-              <label for="state" class="form-label">State</label>
-              <select class="form-select" id="state" required="">
-                <option value="">Choose...</option>
-                <option>California</option>
-              </select>
-              <div class="invalid-feedback">
-                Please provide a valid state.
-              </div>
-            </div>
-
-            <div class="col-md-3">
-              <label for="zip" class="form-label">Zip</label>
-              <input type="text" class="form-control" id="zip" placeholder="" required="">
-              <div class="invalid-feedback">
-                Zip code required.
+                Veuillez renseigner l'objet de votre demande
               </div>
             </div>
           </div>
 
           <hr class="my-4">
-
-          <div class="form-check">
-            <input type="checkbox" class="form-check-input" id="same-address">
-            <label class="form-check-label" for="same-address">Shipping address is the same as my billing address</label>
-          </div>
 
           <div class="form-check">
             <input type="checkbox" class="form-check-input" id="save-info">
@@ -98,61 +81,7 @@
 
           <hr class="my-4">
 
-          <h4 class="mb-3">Payment</h4>
-
-          <div class="my-3">
-            <div class="form-check">
-              <input id="credit" name="paymentMethod" type="radio" class="form-check-input" checked="" required="">
-              <label class="form-check-label" for="credit">Credit card</label>
-            </div>
-            <div class="form-check">
-              <input id="debit" name="paymentMethod" type="radio" class="form-check-input" required="">
-              <label class="form-check-label" for="debit">Debit card</label>
-            </div>
-            <div class="form-check">
-              <input id="paypal" name="paymentMethod" type="radio" class="form-check-input" required="">
-              <label class="form-check-label" for="paypal">PayPal</label>
-            </div>
-          </div>
-
-          <div class="row gy-3">
-            <div class="col-md-6">
-              <label for="cc-name" class="form-label">Name on card</label>
-              <input type="text" class="form-control" id="cc-name" placeholder="" required="">
-              <small class="text-muted">Full name as displayed on card</small>
-              <div class="invalid-feedback">
-                Name on card is required
-              </div>
-            </div>
-
-            <div class="col-md-6">
-              <label for="cc-number" class="form-label">Credit card number</label>
-              <input type="text" class="form-control" id="cc-number" placeholder="" required="">
-              <div class="invalid-feedback">
-                Credit card number is required
-              </div>
-            </div>
-
-            <div class="col-md-3">
-              <label for="cc-expiration" class="form-label">Expiration</label>
-              <input type="text" class="form-control" id="cc-expiration" placeholder="" required="">
-              <div class="invalid-feedback">
-                Expiration date required
-              </div>
-            </div>
-
-            <div class="col-md-3">
-              <label for="cc-cvv" class="form-label">CVV</label>
-              <input type="text" class="form-control" id="cc-cvv" placeholder="" required="">
-              <div class="invalid-feedback">
-                Security code required
-              </div>
-            </div>
-          </div>
-
-          <hr class="my-4">
-
-          <button class="w-100 btn btn-primary btn-lg" type="submit">Continue to checkout</button>
+          <button class="w-100 btn btn-primary btn-lg" type="submit">Envoyer</button>
         </form>
       </div>
     </div>
@@ -171,5 +100,9 @@ export default {
 </script>
 
 <style scoped>
+.container-fluid {
+  margin: 0;
+  padding: 0;
+}
 
 </style>

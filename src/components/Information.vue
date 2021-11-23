@@ -1,6 +1,6 @@
 <template>
   <div id="information">
-    <div class="container">
+    <div class="container-fluid">
       <div class="row">
         <h2>nos deux courses</h2>
       </div>
@@ -71,9 +71,8 @@
         <router-link class="nav-item " to="Information" >C'est juste ici</router-link>
       </div>
       <div class="row">
-        <button href="https://www.le-sportif.com/CalendarDetail/CalendarDetail.aspx?EventID=174735&SHAD="
-                type="submit" class="btn border bg-success text-white border-2 nav-link px-5 py-3">Je m'inscris</button>
-
+        <b-button href="https://www.le-sportif.com/CalendarDetail/CalendarDetail.aspx?EventID=174735&SHAD="
+                type="submit" variant="success" class="btn border text-white border-2 nav-link px-5 py-3">Je m'inscris</b-button>
       </div>
     </div>
 
@@ -98,5 +97,9 @@ export default {
 </script>
 
 <style scoped>
+.container-fluid {
+  margin: 0;
+  padding: 0;
+}
 
 </style>

@@ -1,24 +1,74 @@
 <template>
   <div id="app">
-    <div class="container">
-      <header class="d-flex flex-wrap justify-content-center m-1 p-0 w-100 text-decoration-none"><!-- mb-4-->
 
-          <nav class="nav navbar navbar-expand">
+      <div class="container-fluid">
+        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+          <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+            <svg xmlns="http://www.w3.org/2000/svg" width="302" height="76.372" viewBox="0 0 302 76.372">
+              <g id="Logo_icone" data-name="Logo icone" transform="translate(-111.961 -77.128)" style="mix-blend-mode: darken;isolation: isolate">
+                <text id="LA_RONDE_DU" data-name="LA RONDE DU" transform="translate(225.961 89.314)" fill="#2e2828" font-size="16" font-family="Archivo-BlackItalic, Archivo" font-weight="800" font-style="italic"><tspan x="0" y="14">LA RONDE DU</tspan></text>
+                <text id="BOSMONT" transform="translate(225.961 111.314)" fill="#297319" font-size="30" font-family="Archivo-BlackItalic, Archivo" font-weight="800" font-style="italic"><tspan x="0" y="26">BOSMONT</tspan></text>
+                <ellipse id="Ellipse_1" data-name="Ellipse 1" cx="32.854" cy="33.432" rx="32.854" ry="33.432" transform="translate(142.117 78.128)" fill="none" stroke="#161615" stroke-miterlimit="10" stroke-width="2"/>
+                <path id="Tracé_1" data-name="Tracé 1" d="M170.36,118.082s-2.5,30.558,28.9,34.643l12.014.749c-1.746.461-37.582-4.962-35.223-39.149Z" fill="#2d6223"/>
+                <path id="Tracé_2" data-name="Tracé 2" d="M179.384,120.541s11.052-3.742,9.2-13.223-13.617-11.975-19.5-9.231,0,32.582-13.485,35.826-34.079-20.857-34.079-20.857l-9.562-12.225s35.214,27.943,39.873,24.45S151.47,99.5,166.145,90.6c12.749-7.734,29.666.611,28.44,15.275S179.384,120.541,179.384,120.541Z" fill="#2d6223"/>
+              </g>
+            </svg>
+          </a>
+
+          <nav class="navbar navbar-expand-md navbar-dark mb-4">
             <div class="container-fluid">
-              <svg width="120"></svg>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                  <li class="nav-item"><router-link to="/" class="nav-link active bg-white text-black-50 px-3 py-3">Accueil</router-link></li>
+                  <li class="nav-item"><router-link to="Information" class="nav-link bg-white text-black-50 px-3 py-3">Information</router-link></li>
+                  <li class="nav-item"><router-link to="Photos" class="nav-link bg-white text-black-50 px-3 py-3">Photos</router-link></li>
+                  <li class="nav-item"><router-link to="Resultats" class="nav-link bg-white text-black-50 px-3 py-3">Resultats</router-link></li>
+                  <li class="nav-item"><router-link to="Contact" class="nav-link bg-white text-black-50 px-3 py-3">Contact</router-link></li>
+                  <li id="lien-inscription" class="nav-item"><a href="https://www.le-sportif.com/CalendarDetail/CalendarDetail.aspx?EventID=174735&SHAD="
+                                                                class="nav-link active  bg-success text-white px-3 py-3">Inscription</a></li>
 
-              <ul class="nav nav-pills">
-                <li class="nav-item"><router-link to="/" class="nav-link px-5 py-4">Accueil</router-link></li>
-                <li class="nav-item"><router-link to="Information" class="nav-link px-5 py-4">Information</router-link></li>
-                <li class="nav-item"><router-link to="Photos" class="nav-link px-5 py-4">Photos</router-link></li>
-                <li class="nav-item"><router-link to="Resultats" class="nav-link px-5 py-4">Resultats</router-link></li>
-                <li class="nav-item"><router-link to="Contact" class="nav-link px-5 py-4">Contact</router-link></li>
-                <li id="lien-inscription" class="nav-item"><a href="https://www.le-sportif.com/CalendarDetail/CalendarDetail.aspx?EventID=174735&SHAD="
-                                                         class="nav-link active px-5 py-4 bg-success text-white">Inscription</a></li>
-
-              </ul>
+                </ul>
+              </div>
             </div>
           </nav>
+        </header>
+      </div>
+    <div class="container-fluid bg-success">
+      <header class="position-fixed justify-content-center m-0 p-0 w-100"><!-- mb-4-->
+        <nav class="navbar navbar-expand-lg text-decoration-none bg-white p-2 w-100 " aria-label="Fourth navbar example">
+
+            <a class="col-4 navbar-brand" href="src/App.vue"><svg xmlns="http://www.w3.org/2000/svg" width="302" height="76.372" viewBox="0 0 302 76.372">
+              <g id="Logo_icone" data-name="Logo icone" transform="translate(-111.961 -77.128)" style="mix-blend-mode: darken;isolation: isolate">
+                <text id="LA_RONDE_DU" data-name="LA RONDE DU" transform="translate(225.961 89.314)" fill="#2e2828" font-size="16" font-family="Archivo-BlackItalic, Archivo" font-weight="800" font-style="italic"><tspan x="0" y="14">LA RONDE DU</tspan></text>
+                <text id="BOSMONT" transform="translate(225.961 111.314)" fill="#297319" font-size="30" font-family="Archivo-BlackItalic, Archivo" font-weight="800" font-style="italic"><tspan x="0" y="26">BOSMONT</tspan></text>
+                <ellipse id="Ellipse_1" data-name="Ellipse 1" cx="32.854" cy="33.432" rx="32.854" ry="33.432" transform="translate(142.117 78.128)" fill="none" stroke="#161615" stroke-miterlimit="10" stroke-width="2"/>
+                <path id="Tracé_1" data-name="Tracé 1" d="M170.36,118.082s-2.5,30.558,28.9,34.643l12.014.749c-1.746.461-37.582-4.962-35.223-39.149Z" fill="#2d6223"/>
+                <path id="Tracé_2" data-name="Tracé 2" d="M179.384,120.541s11.052-3.742,9.2-13.223-13.617-11.975-19.5-9.231,0,32.582-13.485,35.826-34.079-20.857-34.079-20.857l-9.562-12.225s35.214,27.943,39.873,24.45S151.47,99.5,166.145,90.6c12.749-7.734,29.666.611,28.44,15.275S179.384,120.541,179.384,120.541Z" fill="#2d6223"/>
+              </g>
+            </svg></a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon navbar-toggler-icon-white"></span>
+            </button>
+
+
+
+            <div class=" collapse navbar-collapse">
+              <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                <li class="nav-item"><router-link to="/" class="nav-link active bg-white text-black-50 px-3 py-3">Accueil</router-link></li>
+                <li class="nav-item"><router-link to="Information" class="nav-link bg-white text-black-50 px-3 py-3">Information</router-link></li>
+                <li class="nav-item"><router-link to="Photos" class="nav-link bg-white text-black-50 px-3 py-3">Photos</router-link></li>
+                <li class="nav-item"><router-link to="Resultats" class="nav-link bg-white text-black-50 px-3 py-3">Resultats</router-link></li>
+                <li class="nav-item"><router-link to="Contact" class="nav-link bg-white text-black-50 px-3 py-3">Contact</router-link></li>
+                <li id="" class="nav-item"><a href="https://www.le-sportif.com/CalendarDetail/CalendarDetail.aspx?EventID=174735&SHAD="
+                                                              class="nav-link active  bg-success text-white px-3 py-3">Inscription</a></li>
+              </ul>
+            </div>
+
+        </nav>
       </header>
     </div>
     <router-view/>
@@ -64,8 +114,8 @@
           <h5>Inscrivez - vous</h5>
           <ul class="nav flex-column">
             <li class="nav-item mb-2"><p>La prochaine édition est désormais ouverte aux inscription !</p></li>
-            <li class="nav-item mb-2"><button href="https://www.le-sportif.com/CalendarDetail/CalendarDetail.aspx?EventID=174735&SHAD="
-                                              type="submit" class="btn border bg-success text-white border-2 nav-link px-5 py-3">Je m'inscris</button></li>
+            <li class="nav-item mb-2"><b-button href="https://www.le-sportif.com/CalendarDetail/CalendarDetail.aspx?EventID=174735&SHAD="
+                                              type="submit" variant="success" class="btn border text-white border-2 nav-link px-5 py-3">Je m'inscris</b-button></li>
           </ul>
         </div>
       </footer>
@@ -80,5 +130,9 @@ export default {
 </script>
 
 <style>
+.container-fluid {
+  margin: 0;
+  padding: 0;
+}
 
 </style>
