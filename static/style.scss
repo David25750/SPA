@@ -2,9 +2,11 @@
 
 
 
-
-
-$vert #297319;
+$vert {
+  'vert' : #297319;
+}
+$success: #297319;
+$theme-colors: map-merge($theme-colors, $vert);
 $blanc #EEEEEE;
 $noir #2E2828;
 $citron #C1E120;

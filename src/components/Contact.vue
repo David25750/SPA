@@ -1,16 +1,16 @@
 <template>
   <div id="contact">
-    <div class="container-fluid">
-      <div class="row row-cols-2">
-        <div class="col">
+    <div class="container">
+      <div class="row row-cols-2 my-3">
+        <div class="col m-0 p-0">
           <h2>infos pratique</h2>
         </div>
-        <div class="col">
+        <div class="col m-0 p-0">
           <h2>nous contacter</h2>
         </div>
       </div>
       <div class="row row-cols-2">
-        <div class="col">
+        <div class="col m-0 p-0">
           <svg></svg>
           <p>Lundi 18 avril 2022, 10h00</p>
         </div>
@@ -28,6 +28,11 @@
           <svg></svg>
           <p>contact@rondedubosmont.fr</p>
         </div>
+      </div>
+      <div class="row">
+        <h4>Suivez - nous</h4>
+        <svg></svg>
+        <svg></svg>
       </div>
     </div>
     <div class="container-fluid bg-black-50">
@@ -100,9 +105,6 @@ export default {
 </script>
 
 <style scoped>
-.container-fluid {
-  margin: 0;
-  padding: 0;
-}
+
 
 </style>
