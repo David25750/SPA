@@ -1,6 +1,6 @@
 <template>
   <div id="accueil">
-    <div class="container-fluid">
+    <div class="container-fluid pt-5">
       <div class="row">
         <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1375" height="347" viewBox="0 0 1375 347">
           <defs>
@@ -86,33 +86,137 @@
     </div>
     <div class="container justify-content-center">
       <div class="row row-cols-3">
-          <div class="col">
-            <svg></svg>
+          <div class="col px-5 text-center">
+            <svg xmlns="http://www.w3.org/2000/svg" width="286.883" height="278.268" viewBox="0 0 286.883 278.268">
+              <g id="graphisme_carte_parcous" data-name="graphisme carte parcous" transform="translate(-254.838 -4368.563)">
+                <path id="Tracé_45" data-name="Tracé 45" d="M267.694,4059.74l57.4,24.351,49.816-24.351,47.651,21.229,14.079,59.316,88.262-4.371L369.493,4296.379l-4.332-89.286-78.515,8.117Z" transform="matrix(0.996, 0.087, -0.087, 0.996, 366.123, 314.652)" fill="none" stroke="#000" stroke-width="5"/>
+                <g id="Ellipse_8" data-name="Ellipse 8" transform="matrix(0.996, 0.087, -0.087, 0.996, 268.43, 4368.563)" fill="#297319" stroke="#000" stroke-width="5">
+                  <circle cx="16" cy="16" r="16" stroke="none"/>
+                  <circle cx="16" cy="16" r="13.5" fill="none"/>
+                </g>
+                <g id="Ellipse_9" data-name="Ellipse 9" transform="matrix(0.996, 0.087, -0.087, 0.996, 277.433, 4380.394)" fill="#2e2828" stroke="#000" stroke-width="1">
+                  <ellipse cx="6" cy="5.5" rx="6" ry="5.5" stroke="none"/>
+                  <ellipse cx="6" cy="5.5" rx="5.5" ry="5" fill="none"/>
+                </g>
+                <g id="Ellipse_10" data-name="Ellipse 10" transform="matrix(0.996, 0.087, -0.087, 0.996, 428.378, 4441.28)" fill="#297319" stroke="#000" stroke-width="4">
+                  <ellipse cx="7" cy="6.5" rx="7" ry="6.5" stroke="none"/>
+                  <ellipse cx="7" cy="6.5" rx="5" ry="4.5" fill="none"/>
+                </g>
+                <g id="Ellipse_11" data-name="Ellipse 11" transform="matrix(0.996, 0.087, -0.087, 0.996, 379.314, 4384.288)" fill="#297319" stroke="#000" stroke-width="4">
+                  <ellipse cx="7" cy="6.5" rx="7" ry="6.5" stroke="none"/>
+                  <ellipse cx="7" cy="6.5" rx="5" ry="4.5" fill="none"/>
+                </g>
+                <g id="Ellipse_12" data-name="Ellipse 12" transform="matrix(0.996, 0.087, -0.087, 0.996, 480.045, 4470.967)" fill="#297319" stroke="#000" stroke-width="4">
+                  <ellipse cx="7" cy="6.5" rx="7" ry="6.5" stroke="none"/>
+                  <ellipse cx="7" cy="6.5" rx="5" ry="4.5" fill="none"/>
+                </g>
+                <g id="Ellipse_13" data-name="Ellipse 13" transform="translate(493.991 4498.353)" fill="#297319" stroke="#000" stroke-width="4">
+                  <ellipse cx="7" cy="6.5" rx="7" ry="6.5" stroke="none"/>
+                  <ellipse cx="7" cy="6.5" rx="5" ry="4.5" fill="none"/>
+                </g>
+                <g id="Ellipse_14" data-name="Ellipse 14" transform="matrix(0.996, 0.087, -0.087, 0.996, 425.402, 4558.466)" fill="#297319" stroke="#000" stroke-width="4">
+                  <ellipse cx="7" cy="6.5" rx="7" ry="6.5" stroke="none"/>
+                  <ellipse cx="7" cy="6.5" rx="5" ry="4.5" fill="none"/>
+                </g>
+                <g id="Ellipse_15" data-name="Ellipse 15" transform="matrix(0.996, 0.087, -0.087, 0.996, 353.098, 4622.157)" fill="#297319" stroke="#000" stroke-width="4">
+                  <ellipse cx="7" cy="6.5" rx="7" ry="6.5" stroke="none"/>
+                  <ellipse cx="7" cy="6.5" rx="5" ry="4.5" fill="none"/>
+                </g>
+                <g id="Ellipse_16" data-name="Ellipse 16" transform="matrix(0.996, 0.087, -0.087, 0.996, 356.098, 4530.831)" fill="#297319" stroke="#000" stroke-width="4">
+                  <ellipse cx="7" cy="6.5" rx="7" ry="6.5" stroke="none"/>
+                  <ellipse cx="7" cy="6.5" rx="5" ry="4.5" fill="none"/>
+                </g>
+                <g id="Ellipse_17" data-name="Ellipse 17" transform="matrix(0.996, 0.087, -0.087, 0.996, 279.184, 4532.49)" fill="#297319" stroke="#000" stroke-width="4">
+                  <ellipse cx="7" cy="6.5" rx="7" ry="6.5" stroke="none"/>
+                  <ellipse cx="7" cy="6.5" rx="5" ry="4.5" fill="none"/>
+                </g>
+                <g id="Ellipse_18" data-name="Ellipse 18" transform="matrix(0.996, 0.087, -0.087, 0.996, 273.725, 4445.727)" fill="#297319" stroke="#000" stroke-width="4">
+                  <ellipse cx="7" cy="6.5" rx="7" ry="6.5" stroke="none"/>
+                  <ellipse cx="7" cy="6.5" rx="5" ry="4.5" fill="none"/>
+                </g>
+              </g>
+            </svg>
           </div>
-          <div class="col">
-            <svg></svg>
+          <div class="col px-5 text-center">
+            <svg xmlns="http://www.w3.org/2000/svg" width="295.169" height="214.844" viewBox="0 0 295.169 214.844">
+              <g id="graphisme_carte_dénivelé" data-name="graphisme carte dénivelé" transform="translate(-816.915 -4430.658)">
+                <g id="Ellipse_19" data-name="Ellipse 19" transform="matrix(0.996, 0.087, -0.087, 0.996, 819.704, 4475.416)" fill="#297319" stroke="#2e2828" stroke-width="5">
+                  <circle cx="16" cy="16" r="16" stroke="none"/>
+                  <circle cx="16" cy="16" r="13.5" fill="none"/>
+                </g>
+                <g id="Ellipse_20" data-name="Ellipse 20" transform="matrix(0.996, 0.087, -0.087, 0.996, 828.751, 4486.747)" fill="#2e2828" stroke="#2e2828" stroke-width="1">
+                  <ellipse cx="6" cy="5.5" rx="6" ry="5.5" stroke="none"/>
+                  <ellipse cx="6" cy="5.5" rx="5.5" ry="5" fill="none"/>
+                </g>
+                <path id="Tracé_47" data-name="Tracé 47" d="M836.975,4170.833l87.5-26.717,25.215,10.733,37.552,15.984,66.3-55.006,54.81,49.505" transform="translate(-2.726 321.916)" fill="none" stroke="#2e2828" stroke-width="4"/>
+                <g id="Ellipse_21" data-name="Ellipse 21" transform="matrix(0.996, 0.087, -0.087, 0.996, 914.676, 4458.161)" fill="#297319" stroke="#2e2828" stroke-width="4">
+                  <ellipse cx="7" cy="6.5" rx="7" ry="6.5" stroke="none"/>
+                  <ellipse cx="7" cy="6.5" rx="5" ry="4.5" fill="none"/>
+                </g>
+                <g id="Ellipse_22" data-name="Ellipse 22" transform="matrix(0.996, 0.087, -0.087, 0.996, 1044.402, 4430.658)" fill="#297319" stroke="#2e2828" stroke-width="4">
+                  <ellipse cx="7" cy="6.5" rx="7" ry="6.5" stroke="none"/>
+                  <ellipse cx="7" cy="6.5" rx="5" ry="4.5" fill="none"/>
+                </g>
+                <g id="Ellipse_23" data-name="Ellipse 23" transform="matrix(0.996, 0.087, -0.087, 0.996, 1100.13, 4480.745)" fill="#2e2828" stroke="#2e2828" stroke-width="1">
+                  <ellipse cx="6" cy="5.5" rx="6" ry="5.5" stroke="none"/>
+                  <ellipse cx="6" cy="5.5" rx="5.5" ry="5" fill="none"/>
+                </g>
+                <path id="Tracé_49" data-name="Tracé 49" d="M0,0H107.514" transform="translate(845.623 4574.5)" fill="none" stroke="#2e2828" stroke-width="6"/>
+                <path id="Tracé_48" data-name="Tracé 48" d="M0,0H107.419" transform="translate(845.719 4603.5)" fill="none" stroke="#2e2828" stroke-width="6"/>
+                <line id="Ligne_8" data-name="Ligne 8" x2="68.231" transform="translate(846.269 4632.5)" fill="none" stroke="#2e2828" stroke-width="6"/>
+                <g id="Ellipse_24" data-name="Ellipse 24" transform="matrix(0.996, 0.087, -0.087, 0.996, 947.639, 4568.498)" fill="#2e2828" stroke="#2e2828" stroke-width="1">
+                  <ellipse cx="6" cy="5.5" rx="6" ry="5.5" stroke="none"/>
+                  <ellipse cx="6" cy="5.5" rx="5.5" ry="5" fill="none"/>
+                </g>
+                <g id="Ellipse_25" data-name="Ellipse 25" transform="matrix(0.996, 0.087, -0.087, 0.996, 947.639, 4597.498)" fill="#2e2828" stroke="#2e2828" stroke-width="1">
+                  <ellipse cx="6" cy="5.5" rx="6" ry="5.5" stroke="none"/>
+                  <ellipse cx="6" cy="5.5" rx="5.5" ry="5" fill="none"/>
+                </g>
+                <g id="Ellipse_26" data-name="Ellipse 26" transform="matrix(0.996, 0.087, -0.087, 0.996, 909.129, 4626.498)" fill="#2e2828" stroke="#2e2828" stroke-width="1">
+                  <ellipse cx="6" cy="5.5" rx="6" ry="5.5" stroke="none"/>
+                  <ellipse cx="6" cy="5.5" rx="5.5" ry="5" fill="none"/>
+                </g>
+                <path id="Tracé_50" data-name="Tracé 50" d="M0,0V-61.647" transform="translate(1030.905 4645.502)" fill="none" stroke="#2e2828" stroke-width="10"/>
+                <path id="Tracé_51" data-name="Tracé 51" d="M0,39.641V-61.647" transform="translate(1051.502 4605.861)" fill="none" stroke="#2e2828" stroke-width="10"/>
+                <path id="Tracé_52" data-name="Tracé 52" d="M0-19.646v-42" transform="translate(1072.1 4665.147)" fill="none" stroke="#2e2828" stroke-width="10"/>
+              </g>
+            </svg>
           </div>
-          <div class="col">
-            <svg></svg>
+          <div class="col px-5 text-center">
+            <svg xmlns="http://www.w3.org/2000/svg" width="236.846" height="198.271" viewBox="0 0 236.846 198.271">
+              <g id="graphisme_tracé_gps" data-name="graphisme tracé gps" transform="translate(-1424.02 -4399.358)">
+                <path id="Tracé_53" data-name="Tracé 53" d="M1439.02,4235.636s173.9,7.956,170.367-19.449-198.024-26.521-160.01-67.187,175.039-7.073,175.923-36.246-74.259-11.492-66.3-37.129,50.39-17.681,50.39-17.681" transform="translate(1 351)" fill="none" stroke="#2e2828" stroke-width="5"/>
+                <g id="Ellipse_27" data-name="Ellipse 27" transform="translate(1424.02 4577.789)" fill="#297319" stroke="#2e2828" stroke-width="5">
+                  <ellipse cx="16" cy="9.92" rx="16" ry="9.92" stroke="none"/>
+                  <ellipse cx="16" cy="9.92" rx="13.5" ry="7.42" fill="none"/>
+                </g>
+                <g id="Ellipse_28" data-name="Ellipse 28" transform="translate(1598.307 4399.358)" fill="#2e2828" stroke="#2e2828" stroke-width="5">
+                  <ellipse cx="11.5" cy="8.42" rx="11.5" ry="8.42" stroke="none"/>
+                  <ellipse cx="11.5" cy="8.42" rx="9" ry="5.92" fill="none"/>
+                </g>
+                <path id="Tracé_54" data-name="Tracé 54" d="M1597.307,4187.97l32.409-46.325,28.445,46.325" transform="translate(1 351)" fill="none" stroke="#2e2828" stroke-width="4"/>
+                <path id="Tracé_55" data-name="Tracé 55" d="M1597.307,4187.97l32.409-46.325,28.445,46.325" transform="translate(-140.734 274.553)" fill="none" stroke="#2e2828" stroke-width="4"/>
+                <path id="Tracé_56" data-name="Tracé 56" d="M1597.307,4160.287l16.2-18.642,14.223,18.642" transform="translate(-79.88 302.237)" fill="none" stroke="#2e2828" stroke-width="4"/>
+                <path id="Tracé_57" data-name="Tracé 57" d="M1597.307,4160.287l16.2-18.642,14.223,18.642" transform="translate(-29.521 378.683)" fill="none" stroke="#2e2828" stroke-width="4"/>
+                <path id="Tracé_58" data-name="Tracé 58" d="M1603.96,4187.97l25.756-46.325,28.445,46.325" transform="translate(-134.161 364.841)" fill="#297319" stroke="#2e2828" stroke-width="4"/>
+              </g>
+            </svg>
           </div>
       </div>
-      <div class="row row-cols-3 justify-content-center">
+      <div class="row row-cols-3">
           <div class="col p-5">
             <h4 class="text-center text-uppercase bg-dark text-white py-2">Carte du parcours</h4>
-            <svg></svg>
           </div>
           <div class="col p-5">
             <h4 class="text-center text-uppercase bg-dark text-white py-2">Carte du dénivelé</h4>
-            <svg></svg>
           </div>
           <div class="col p-5">
             <h4 class="text-center text-uppercase bg-dark text-white py-2">Tracé GPS</h4>
-            <svg></svg>
           </div>
       </div>
 
     </div>
-    <div class="container-fluid justify-content-center bg-dark">
+    <div class="container-fluid justify-content-center py-5 bg-dark">
       <div class="row p-5">
         <h1 class="text-center text-white display-4 text-uppercase">inscrivez - vous !</h1>
       </div>
@@ -130,9 +234,9 @@
     </div>
     <div class="container-fluid bg-success">
       <div class="row p-5">
-        <h2 class="text-white text-center text-uppercase">nos partenaires</h2>
-        <div class="row row-cols-3">
-          <div class="col justify-content-center">
+        <h2 class="text-white text-center text-uppercase my-5">nos partenaires</h2>
+        <div class="row row-cols-3 ">
+          <div class="col text-center my-auto">
             <svg xmlns="http://www.w3.org/2000/svg" width="147.894" height="157.762" viewBox="0 0 147.894 157.762">
               <g id="Logo_andelnans" data-name="Logo andelnans" transform="translate(6 6)">
                 <path id="Tracé_65" data-name="Tracé 65" d="M337.078,5611.661v90.526s27.3,52.546,64.307,55.146,71.587-55.146,71.587-55.146v-90.526Z" transform="translate(-337.078 -5611.661)" fill="none" stroke="#2e2828" stroke-width="12"/>
@@ -140,7 +244,7 @@
               </g>
             </svg>
           </div>
-          <div class="col">
+          <div class="col text-center my-auto">
             <svg xmlns="http://www.w3.org/2000/svg" width="244.961" height="167.07" viewBox="0 0 244.961 167.07">
               <g id="Logo_icone" data-name="Logo icone" transform="translate(0 2)" style="mix-blend-mode: darken;isolation: isolate">
                 <ellipse id="Ellipse_1" data-name="Ellipse 1" cx="80.354" cy="79.535" rx="80.354" ry="79.535" transform="translate(68.292)" fill="none" stroke="#2e2828" stroke-miterlimit="10" stroke-width="4"/>
@@ -149,7 +253,7 @@
               </g>
             </svg>
           </div>
-          <div class="col">
+          <div class="col text-center my-auto">
             <svg xmlns="http://www.w3.org/2000/svg" width="125.057" height="167.136" viewBox="0 0 125.057 167.136">
               <g id="Logo_danjoutins" data-name="Logo danjoutins" transform="translate(0.5 0.5)">
                 <path id="Tracé_70" data-name="Tracé 70" d="M337.078,5611.66v103.179s24.922,59.891,58.706,62.855,65.351-62.855,65.351-62.855V5611.66Z" transform="translate(-337.078 -5611.66)" fill="#2e2828" stroke="rgba(238,238,238,0)" stroke-width="1"/>

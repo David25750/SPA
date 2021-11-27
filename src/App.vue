@@ -1,8 +1,8 @@
 <template>
   <div id="app">
-      <div class="container-fluid">
-          <header class="d-flex flex-wrap justify-content-center">
-          <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+      <div class="container-fluid position-fixed ">
+          <header class="d-flex flex-wrap justify-content-center bg-white">
+          <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-decoration-none">
             <svg xmlns="http://www.w3.org/2000/svg" width="302" height="76.372" viewBox="0 0 302 76.372">
               <g id="Logo_icone" data-name="Logo icone" transform="translate(-111.961 -77.128)" style="mix-blend-mode: darken;isolation: isolate">
                 <text id="LA_RONDE_DU" data-name="LA RONDE DU" transform="translate(225.961 89.314)" fill="#2e2828" font-size="16" font-family="Archivo-BlackItalic, Archivo" font-weight="800" font-style="italic"><tspan x="0" y="14">LA RONDE DU</tspan></text>
@@ -34,11 +34,11 @@
         </header>
       </div>
     <router-view/>
-    <div class="container-fluid">
+    <div class="container">
       <footer class="border-top">
-      <div class="row row-cols-10 py-5 my-5 justify-content-center ">
+      <div class="row row-cols-10 py-5 my-5 justify-content-center">
         <div class="col">
-          <svg xmlns="http://www.w3.org/2000/svg" width="302" height="76.372" viewBox="0 0 302 76.372">
+          <svg xmlns="http://www.w3.org/2000/svg" width="400" height="120" viewBox="0 0 302 76.372">
             <g id="Logo_icone" data-name="Logo icone" transform="translate(-111.961 -77.128)" style="mix-blend-mode: darken;isolation: isolate">
               <text id="LA_RONDE_DU" data-name="LA RONDE DU" transform="translate(225.961 89.314)" fill="#2e2828" font-size="16" font-family="Archivo-BlackItalic, Archivo" font-weight="800" font-style="italic"><tspan x="0" y="14">LA RONDE DU</tspan></text>
               <text id="BOSMONT" transform="translate(225.961 111.314)" fill="#297319" font-size="30" font-family="Archivo-BlackItalic, Archivo" font-weight="800" font-style="italic"><tspan x="0" y="26">BOSMONT</tspan></text>
@@ -49,7 +49,7 @@
           </svg>
         </div>
         <div class="col">
-          <h5 class="mb-1">Réseaux sociaux</h5>
+          <h5 class="mb-5">Réseaux sociaux</h5>
           <ul class="row nav mt-2">
             <li class="nav-item col p-0 m-0"><a href="" class="nav-link p-0 m-0">
               <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="#297319" class="bi bi-facebook" viewBox="0 0 16 16">
@@ -67,23 +67,23 @@
             <li class="nav-item mb-2"><p>Contactez - nous pour toute information complémentaires</p></li>
             <li class="nav-item mb-2 flex-row"><a href="#" class="nav-link p-0">
               <div class="col">
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-phone" viewBox="0 0 16 16">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#297319" class="bi bi-phone" viewBox="0 0 16 16">
               <path d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h6zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H5z"/>
               <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
-            </svg>
+            </svg><p class="text-black">03 84 56 12 05</p>
               </div>
               <div class="col">
-              <p>03 84 56 12 05</p>
+
               </div>
             </a></li>
             <li class="nav-item mb-2 flex-row"><a href="#" class="nav-link p-0">
               <div class="col">
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-at" viewBox="0 0 16 16">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#297319" class="bi bi-at" viewBox="0 0 16 16">
               <path d="M13.106 7.222c0-2.967-2.249-5.032-5.482-5.032-3.35 0-5.646 2.318-5.646 5.702 0 3.493 2.235 5.708 5.762 5.708.862 0 1.689-.123 2.304-.335v-.862c-.43.199-1.354.328-2.29.328-2.926 0-4.813-1.88-4.813-4.798 0-2.844 1.921-4.881 4.594-4.881 2.735 0 4.608 1.688 4.608 4.156 0 1.682-.554 2.769-1.416 2.769-.492 0-.772-.28-.772-.76V5.206H8.923v.834h-.11c-.266-.595-.881-.964-1.6-.964-1.4 0-2.378 1.162-2.378 2.823 0 1.737.957 2.906 2.379 2.906.8 0 1.415-.39 1.709-1.087h.11c.081.67.703 1.148 1.503 1.148 1.572 0 2.57-1.415 2.57-3.643zm-7.177.704c0-1.197.54-1.907 1.456-1.907.93 0 1.524.738 1.524 1.907S8.308 9.84 7.371 9.84c-.895 0-1.442-.725-1.442-1.914z"/>
             </svg>
               </div>
               <div class="col">
-              <p>contact@rondedubosmont.fr</p>
+              <p class="text-black">contact@rondedubosmont.fr</p>
               </div>
             </a></li>
           </ul>
@@ -97,8 +97,8 @@
           </ul>
         </div>
       </div>
-        <div class="row text-center mb-2">
-          C  Copyright La Ronde du Bosmont   Mentions légales   Réalisation Alexandre Anthoine Nathan Broglin et David Philippe
+        <div class="row mb-2">
+          <p class="text-center">C  Copyright La Ronde du Bosmont   Mentions légales   Réalisation Alexandre Anthoine Nathan Broglin et David Philippe</p>
         </div>
       </footer>
     </div>

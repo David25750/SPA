@@ -1,7 +1,7 @@
 <template>
   <div id="contact">
-    <div class="container">
-      <div class="row row-cols-2 my-3">
+    <div class="container pt-5">
+      <div class="row row-cols-2 my-5">
         <div class="col m-0 p-0">
           <h2>infos pratique</h2>
         </div>

@@ -1,15 +1,16 @@
 <template>
   <div id="information">
-    <div class="container-fluid">
+    <div class="container pt-5">
       <div class="row">
-        <h2 class="text-cente text-uppercaser">nos deux courses</h2>
+        <h2 class="text-center my-5 display-4 text-uppercaser">nos deux courses</h2>
       </div>
       <div class="row ">
-        <p class="text-center">Notre évènement vous propose deux courses différentes : la Course des As et les Épreuves jeunes.
-          Informations liées aux courses disponibles dans le règlement à télécharger ci dessous</p>
+        <p class="text-center lead my-5">Notre évènement vous propose deux courses différentes : la Course des As et les Épreuves jeunes.
+          <br>
+          <strong>Informations liées aux courses disponibles dans le règlement à télécharger ci dessous</strong></p>
       </div>
-      <div class="row row-cols-2">
-        <div class="col m-3 bg-success">
+      <div class="row row-cols-2 px-5">
+        <div class="col text-center">
           <svg xmlns="http://www.w3.org/2000/svg" width="50" height="100" viewBox="0 0 260.087 210.576">
             <g id="Logo_coureur" data-name="Logo coureur" transform="translate(-395.794 -859.992)">
               <g id="Ellipse_34" data-name="Ellipse 34" transform="translate(559 867)" fill="#2e2828" stroke="rgba(112,112,112,0)" stroke-width="1">
@@ -23,7 +24,7 @@
             </g>
           </svg>
         </div>
-        <div class="col m-3 bg-success">
+          <div class="col text-center">
           <svg xmlns="http://www.w3.org/2000/svg" width="80" height="150" viewBox="0 0 360.486 193.799">
             <g id="Logo_coureur" data-name="Logo coureur" transform="translate(-255.332 -815.278)">
               <g id="Ellipse_34" data-name="Ellipse 34" transform="translate(562.517 885.705)" fill="#2e2828" stroke="rgba(112,112,112,0)" stroke-width="1">
@@ -58,21 +59,21 @@
         </div>
       </div>
     </div>
-    <div class="container mt-5">
+    <div class="container-fluid bg-success p-5 mt-5">
       <div class="row">
-        <h3 class="text-center">règlement</h3>
+        <h3 class="text-white display-4 p-5 text-center text-uppercase">réglement</h3>
       </div>
       <div class="row">
-        <svg  xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor" class="bi bi-file-earmark" viewBox="0 0 16 16">
+        <svg  xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="white" class="bi bi-file-earmark" viewBox="0 0 16 16">
           <path d="M14 4.5V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h5.5L14 4.5zm-3 0A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4.5h-2z"></path>
         </svg>
       </div>
       <div class="row">
-        <p class="text-center">Avant de vous inscrire, afin d'assurer de bonnes conditions durant l'évènement, veuillez télécharger le règlement de la course</p>
+        <p class="lead text-white m-5 text-center">Avant de vous inscrire, afin d'assurer de bonnes conditions durant l'évènement, veuillez télécharger le règlement de la course</p>
       </div>
-      <div class="row">
-        <a href="#"><p class="text-center">règlement de la course</p>
-          <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor" class="bi bi-download justify-content-center" viewBox="0 0 16 16">
+      <div class="text-center d-grid gap-2">
+        <a class="text-decoration-none py-5 gap-4 bg-dark" href="#"><p class="text-white text-uppercase lead text-center">règlement de la course</p>
+          <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="white" class="bi bi-download justify-content-center" viewBox="0 0 16 16">
             <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"></path>
             <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"></path>
           </svg></a>
@@ -80,39 +81,38 @@
     </div>
     <div class="container justify-content-center">
       <div class="row">
-        <h3>conditions d'inscription</h3>
+        <h3 class="text-uppercase text-center my-5 display-4" >conditions d'inscription</h3>
       </div>
       <div class="row">
-        <p>Pour vous inscrire, tout participant doit fournir: </p>
+        <p class="display-6">Pour vous inscrire, tout participant doit fournir: </p>
       </div>
-      <div class="">
       <ul>
-        <li>une licence Athlé Compétition, Athlé entreprise ou Athlé Running</li>
-        <li>une licence sportive</li>
-        <li>un certificat médicale pour les non-licenciés</li>
+        <li class="lead">une licence Athlé Compétition, Athlé entreprise ou Athlé Running</li>
+        <li class="lead">une licence sportive</li>
+        <li class="lead">un certificat médicale pour les non-licenciés</li>
       </ul>
+      <div class="row">
+        <h5 class="display-5">Tarif de la course</h5>
       </div>
       <div class="row">
-        <h5>Tarif de la course</h5>
-      </div>
-      <div class="row">
-        <p>Course des As : 10 euros pour les 10 km ( majoration de 3 euros le jour de l'épreuve</p>
-        <p>Course jeunes : 2 euros (toute catégorie)</p>
+        <p class="lead">Course des As : 10 euros pour les 10 km ( majoration de 3 euros le jour de l'épreuve</p>
+        <p class="lead">Course jeunes : 2 euros (toute catégorie)</p>
       </div>
     </div>
-    <div class="container justify-content-center">
-      <div class="row">
-        <h1>inscrivez - vous !</h1>
+    <div class="container-fluid justify-content-center py-5 bg-dark">
+      <div class="row p-5">
+        <h1 class="text-center text-white display-4 text-uppercase">inscrivez - vous !</h1>
       </div>
       <div class="row">
-        <p>N'hésitez pas à consulter les informations de la course avant de vous inscrire</p>
+        <p class="text-center text-white">N'hésitez pas à consulter les informations de la course avant de vous inscrire</p>
       </div>
-      <div class="row">
-        <router-link class="nav-item " to="Information" >C'est juste ici</router-link>
+      <div class="row text-center">
+        <router-link class="nav-item text-decoration-none text-white" to="Information" >C'est juste ici</router-link>
       </div>
-      <div class="row">
+      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center p-5">
         <b-button href="https://www.le-sportif.com/CalendarDetail/CalendarDetail.aspx?EventID=174735&SHAD="
-                type="submit" variant="success" class="btn border text-white border-2 nav-link px-5 py-3">Je m'inscris</b-button>
+                  type="submit" class="btn btn-warning text-black px-4 gap-3">Je m'inscris</b-button>
+
       </div>
     </div>
   </div>

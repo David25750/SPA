@@ -1,12 +1,9 @@
-@import "./node_modules/bootstrap/scss/bootstrap";
 
+$vert: #123456;
 
-
-$vert {
-  'vert' : #297319;
+$theme-colors{
+"success":   $vert,
 }
-$success: #297319;
-$theme-colors: map-merge($theme-colors, $vert);
-$blanc #EEEEEE;
-$noir #2E2828;
-$citron #C1E120;
+
+
+@import "node_modules/bootstrap-vue/node_modules/bootstrap/scss/bootstrap.scss";
